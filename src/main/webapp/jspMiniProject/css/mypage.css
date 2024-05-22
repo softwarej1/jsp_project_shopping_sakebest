@@ -1,0 +1,122 @@
+@charset "UTF-8";
+#container{
+    width: 1280px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#container header h2{
+    text-align: left;
+}
+#container table{
+    width: 600px;
+    border-collapse: collapse;
+    border-top: 2px solid black;
+}
+
+#container table tr{
+    margin-bottom: 3px;
+}
+#container table td{
+    padding: 0px;
+    margin: auto;
+    text-align: center;
+    height: 50px;
+    font-size: 15px;
+}
+#container table td.text_title{
+    border: 1px solid #d3d3d3;
+    border-left: none;
+    width: 100px;
+}
+#container table td.text_line{
+    width: 200px;
+}
+#container table td.text_line input{
+    border: none;
+    border-bottom: 1px solid #d3d3d3;
+    outline: none;
+    width: 489px;
+    padding-left: 10px;
+    height: 50px;
+}
+#container #button_box input[type="button"]{
+    background-color: rgb(60, 60, 60);
+    color: white;
+    width: 120px;
+    height: 40px;
+    margin-top: 15px;
+}
+#container #button_box input[type="button"]:hover{
+    cursor: pointer;
+}
+#container_bottom{
+	width: 1280px;
+	margin: auto;
+	margin-top: 15px
+}
+
+#container_bottom form div.review_box{
+    width: 600px;
+    height: 70px;
+    margin: auto;
+    position: relative;
+    padding: 0;
+    margin-top: 15px;
+}
+#container_bottom form div.review_box a{
+    width: 600px;
+    text-decoration: none;
+    color: black;
+    height: 70px;
+    float: left;
+}
+
+#container_bottom form div.review_box a div.text_box{
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 10px;
+    position: absolute;
+    top: 5px;
+}
+#container_bottom form div.review_box a div.img_box{
+    display: inline;
+    display: inline-block;
+}
+#container_bottom form div.review_box a div.img_box img{
+    display: inline;
+    width: 70px;
+    height: 66px;
+}
+#container_bottom form div.review_box a div.text_box p{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+#container_bottom form div.review_box a div.text_box p.title{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+#container_bottom input.review{
+    width: 80px;
+    height: 40px;
+    background-color:rgb(60, 60, 60);
+    color: white;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    font-weight: bold;
+}
+#container_bottom input.review:hover{
+    cursor: pointer;
+    background-color:rgb(180, 180, 180);
+}
+hr{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}

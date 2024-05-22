@@ -1,0 +1,48 @@
+@charset "UTF-8";
+#container{
+	width: 1280px;
+	margin: auto;
+	text-align: center;
+}
+fieldset {
+	width:  400px;
+ 	border: 1px solid rgb(73, 73, 73);
+	color: black;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 300px;
+	margin-bottom: 20px;
+}
+legend{
+	font-size: 25px;
+	font-weight: bold;
+}
+p{
+	font-size: 19px;
+	display: block;
+}
+input[type="text"]{
+	margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 380px;
+    height: 20px;
+    border: 0;
+    outline: 0;
+    font-size: 1.0em;
+}
+
+input[type="button"], input[type="submit"]{
+	border: none;
+	width: 150px;
+	height: 40px;
+	font-size: 15px;
+	background-color: rgb(60, 60, 60);
+	color: white;
+	font-weight: bold;
+	margin-right: 5px;
+}
+input[type="button"]:hover, input[type="submit"]:hover{
+	cursor: pointer;
+	background-color: rgb(180, 180, 180);
+}

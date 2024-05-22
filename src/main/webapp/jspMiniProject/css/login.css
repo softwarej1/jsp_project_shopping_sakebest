@@ -1,0 +1,95 @@
+@charset "UTF-8";
+#wrapper{
+    width: 1020px;
+    margin: 0 auto;
+    padding: 0;
+    height: 0 auto;
+    text-align: center;
+}
+
+header{
+    margin-top: 100px;
+}
+
+header .headerLogo .logoImg{
+    width: 200px;
+}
+
+.textField_email, .textField_password{
+    margin-top: 10px;
+    margin-left: 280px;
+    width: 455px;
+    height: 48px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.textField_password{
+    margin-top: 15px;
+}
+
+.imgBox{
+    width: 43px;
+    height: 48px;
+    float: left;
+}
+
+.imgBox .Img{
+    margin-top: 10px;
+    width: 30px;
+    height: 25px;
+}
+
+.textFieldBox{
+    height: 48px;
+    float: left;
+    border-left: 1px solid black;
+}
+
+.textFieldBox .emailField, .passwordField{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 380px;
+    height: 20px;
+    border: 0;
+    outline: 0;
+    font-size: 1.0em;
+}
+
+
+
+.gotoReg{
+    margin-top: 10px;
+    margin-left: 240px;
+}
+
+.gotoReg a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 0.82em;
+}
+
+.loginSubmit{
+    margin-top: 25px;
+}
+
+.loginSubmit input{
+    width: 455px;
+    height: 48px;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+}
+
+hr{
+    margin-top: 25px;
+}
+
+.simpleLog img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+}

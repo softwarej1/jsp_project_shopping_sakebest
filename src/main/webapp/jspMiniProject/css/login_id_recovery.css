@@ -1,0 +1,73 @@
+@charset "UTF-8";
+#wrapper{
+    width: 1020px;
+    margin: 0 auto;
+    padding: 0;
+    height: 0 auto;
+    text-align: center;
+}
+
+header{
+    margin-top: 100px;
+}
+
+header .headerLogo .logoImg{
+    width: 200px;
+}
+
+h4{
+    margin-left: -372px 
+}
+
+.textField_email, .textField_password, .textField_again_password, .textField_name, .textField_phone, .textField_addr, .textField_birth{
+    margin-top: 10px;
+    margin-left: 280px;
+    width: 455px;
+    height: 48px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.textField_password{
+    margin-top: 15px;
+}
+
+.imgBox{
+    width: 43px;
+    height: 48px;
+    float: left;
+}
+
+.imgBox .Img{
+    margin-top: 10px;
+    width: 30px;
+    height: 25px;
+}
+
+.textFieldBox{
+    height: 48px;
+    float: left;
+    border-left: 1px solid black;
+}
+
+.textFieldBox .emailField, .passwordField, .nameField, .addressField, .birthField, .phoneField{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 380px;
+    height: 20px;
+    border: 0;
+    outline: 0;
+    font-size: 1.0em;
+}
+
+.regButton{
+    margin-top: 20px;
+}
+
+.regButton input{
+    width: 225px;
+    height: 40px;
+}
+.regButton input:hover{
+	cursor: pointer;
+}

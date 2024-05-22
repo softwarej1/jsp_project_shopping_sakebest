@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+#wrapper {
+	width: 1280px;
+	height: auto;
+	margin: 0 auto;
+}
+
+#wrapper .infoBox {
+	height: 1000px;
+}
+
+#wrapper .infoBox .imgBox {
+	float: left;
+	width: 600px;
+}
+
+#wrapper .infoBox .imgBox .alcholImg {
+	margin-left: 100px;
+	width: 450px;
+	height: 700px;
+}
+
+#wrapper .infoBox .heartBox {
+	width: 50px;
+	height: 50px;
+}
+
+.heartBox img {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	bottom: 10px;
+	right: 70px;
+}
+
+#wrapper .infoBox .detailBox {
+	float: left;
+	width: 640px;
+	height: 700px;
+	position: relative;
+	font-size: 16px;
+}
+
+#wrapper .infoBox .detailBox .ButtonBox {
+	display: block;
+	height: 55px;
+}
+
+#wrapper .infoBox .detailBox .ButtonBox input {
+	width: 200px;
+	height: 50px;
+	margin-top: 0px;
+}
+
+#wrapper .infoBox .detailBox .ButtonBox input[type="button"] {
+	background-color: rgb(60, 60, 60);
+	color: white;
+	font-size: 20px;
+	margin-right: 15px;
+}
+
+#wrapper .infoBox .detailBox .ButtonBox input[type="submit"] {
+	background-color: rgb(60, 60, 60);
+	color: white;
+	font-size: 20px;
+	margin-right: 15px;
+}
+
+#wrapper .infoBox .detailBox .ButtonBox input[type="button"]:hover{
+	cursor: pointer;
+	background-color: rgb(180, 180, 180);
+}
+#wrapper .infoBox .detailBox .ButtonBox input[type="submit"]:hover  {
+	cursor: pointer;
+	background-color: rgb(180, 180, 180);
+}
+#quantity {
+	font-size: 18px;
+}
+
+#wrapper .infoBox .detailBox .amount {
+	width: 640px;
+	float: left;
+	height: 30px;
+	margin-bottom: 15px;
+}
+
+.amountP {
+	display: inline;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+#wrapper .infoBox .detailBox .cartControls {
+	height: 100px;
+	position: absolute;
+	bottom: 0px;
+}
+
+#empty {
+    float: left;
+    width: 140px;
+    height: 25px;
+    background:url("../../img/star_all_v2.png");
+    background-size: 150px;
+    background-position: 0px -29px;
+    position: relative;   
+}
+
+#small_empty{
+    width: 140px;
+    height: 20px;
+    background:url("../../img/star_all_v2.png");
+    background-size: 150px;
+    background-position: 0px -77px;
+    position: relative;
+    left: 60px;
+    bottom: 80px;
+}
+
+#full{
+    float: left;
+    width: 19.5%;
+    height: 100%;
+    background:url("../../img/star_all_v2.png");
+    background-position: 0px 0px;
+    background-size: 150px;
+}
+
+#small_full{
+    float: left;
+    width: 13%;
+    height: 100%;
+    background:url("../../img/star_all_v2.png");
+    background-position: 0px -56px;
+    background-size: 150px;
+}
+
+.review_total_box{
+    overflow: hidden;
+}
+
+.review_title{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.review_box{
+    overflow: hidden;
+    margin-top: 20px;
+    height: 300px;
+    clear: both;
+}
+
+.user_img{
+    width: 50px;
+}
+
+.user_name{
+    width: 50px;
+    position: relative;
+    left: 60px;
+    bottom: 65px;
+}
+
+.user_date{
+    width: 200px;
+    position: relative;
+    left: 160px;
+    bottom: 115px;
+}
+
+.user_content{
+    position: relative;
+    bottom: 115px;
+}
