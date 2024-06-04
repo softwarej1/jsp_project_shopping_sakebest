@@ -18,3 +18,9 @@ Sake best는 기존의 일본 술 판매 사이트들의 불편한 점, 구매�
  - 디자인 : Kakao oven<br>
  - 개발 환경 : eclipse
 
+## 쇼핑몰 시나리오
+ - 화면 흐름도
+<pre>
+   index.jsp       ->        (main.jsp, main_banner.jsp)      ->       login.jsp        ->       register.jsp
+   (시작 화면)                       (메인 화면)                       (로그인 화면)              (회원가입 화면)
+</pre>
