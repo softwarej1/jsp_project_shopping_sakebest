@@ -10,11 +10,11 @@ Sake best는 기존의 일본 술 판매 사이트들의 불편한 점, 구매�
 ![image](https://github.com/softwarej1/jsp_project_shopping_sakebest/assets/105643491/15e7b089-94c9-4edb-978a-7c6e85ef3395)
 
 ## 개발 환경
-Front : HTML, CSS, JavaScript
-Back-end : Java, JSP, JDBC, Servlet
-협업 툴 : Github, Notion
-데이터베이스 : Oracle SQL
-서버 : Apache Tomcat
-디자인 : Kakao oven
-개발 환경 : eclipse
+ - Front : HTML, CSS, JavaScript<br>
+ - Back-end : Java, JSP, JDBC, Servlet<br>
+ - 협업 툴 : Github, Notion<br>
+ - 데이터베이스 : Oracle SQL<br>
+ - 서버 : Apache Tomcat<br>
+ - 디자인 : Kakao oven<br>
+ - 개발 환경 : eclipse
 
