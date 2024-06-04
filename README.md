@@ -2,7 +2,7 @@
 ![image](https://github.com/softwarej1/jsp_project_shopping_sakebest/assets/105643491/a263876d-1088-4758-ad63-19b4ce047dc4)
 
 ## 프로젝트 소개
-이전에 HTML 프로젝트에서 구현했던 기능을 JSP / SERVLET으로 옮겨 오라클 데이터베이스를 연동하였습니다.
+이전에 HTML 프로젝트에서 구현했던 기능을 JSP / SERVLET으로 옮겨 오라클 데이터베이스를 연동하였습니다. <br>
 상품 리뷰 쓰기, 리뷰 리스트, 장바구니, 상품 구매, 로그인, 회원가입, 이미지 슬라이드 기능 구현
 
 
